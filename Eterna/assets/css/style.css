@@ -930,7 +930,7 @@ section {
 .skills .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #e96b56;
+  color: #fc72d2;
 }
 
 .skills .content p:last-child {
@@ -966,7 +966,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #e96b56;
+  background-color: #fc72d2;
 }
 
 /*--------------------------------------------------------------
