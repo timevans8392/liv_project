@@ -663,6 +663,7 @@ section {
   font-weight: 600;
   font-size: 26px;
   color: #545454;
+  text-align: center;
 }
 
 .about .content ul {
@@ -973,7 +974,7 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
-  margin-bottom: 30px;
+  margin-bottom: 75px;
 }
 
 .portfolio #portfolio-flters {
@@ -1001,7 +1002,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #e96b56;
+  background: #fc72d2;
   color: #fff;
 }
 
@@ -1125,6 +1126,9 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
   bottom: 15px;
   right: 15px;
+}
+.portfolio .portfolio.entry-img {
+  width: 50px;
 }
 
 /*--------------------------------------------------------------
