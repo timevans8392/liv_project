@@ -12,7 +12,7 @@ module.exports = {
   staging: {
     client: 'postgresql',
     connection: {
-      database: 'my_db',
+      database: 'backend',
       user:     'username',
       password: 'password'
     },
@@ -25,20 +25,5 @@ module.exports = {
     }
   },
 
-  production: {
-    client: 'postgresql',
-    connection: {
-      database: 'my_db',
-      user:     'username',
-      password: 'password'
-    },
-    pool: {
-      min: 2,
-      max: 10
-    },
-    migrations: {
-      tableName: 'knex_migrations'
-    }
-  }
 
 };
